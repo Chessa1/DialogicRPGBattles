@@ -1,0 +1,32 @@
+{
+	"glossary": [
+		{
+			"extra": "",
+			"id": "1627783159-146",
+			"name": "Slime",
+			"text": "Vicous blue fellow that you must destroy,\n[Slimehealth]/20 HP",
+			"title": "Slime",
+			"type": 1
+		}
+	],
+	"variables": [
+		{
+			"id": "1627784186-574",
+			"name": "Battle",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1627781051-787",
+			"name": "Playerhealth",
+			"type": 0,
+			"value": "10"
+		},
+		{
+			"id": "1627779172-648",
+			"name": "Slimehealth",
+			"type": 0,
+			"value": "20"
+		}
+	]
+}

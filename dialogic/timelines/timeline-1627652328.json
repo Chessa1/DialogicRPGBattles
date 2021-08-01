@@ -1,0 +1,59 @@
+{
+	"events": [
+		{
+			"background": "res://mountain_trail.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"character": "character-1627652279.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are traveling alongside a deserted mountain path where you see a Slime! It slowly hops towards you in a very odd manner, you know all of your years of training has been building up to just this moment where a small piece of blue goo is too close to you. Time to battle!"
+		},
+		{
+			"definition": "1627784186-574",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What will you do?"
+		},
+		{
+			"choice": "Attack",
+			"condition": "==",
+			"definition": "1627784186-574",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"emit_signal": "attack",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Defend",
+			"condition": "",
+			"definition": "1627784186-574",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"emit_signal": "defend",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1627652328.json",
+		"name": "Timeline1"
+	}
+}
