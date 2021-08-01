@@ -37,7 +37,7 @@ func dialogic_signal(argument):
 	var dialog
 
 	var variables= {}
-	for var_ in["Slimehealth", "Playerhealth", "Battle"]:
+	for var_ in["Slimehealth", "Playerhealth", "Battle", ""]:
 		variables[var_] = Dialogic.get_variable(var_)
 
 	# if the argument is 'defend', get a timeline from the defending list

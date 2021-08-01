@@ -1,11 +1,6 @@
 {
 	"events": [
 		{
-			"background": "res://mountain_trail.png",
-			"event_id": "dialogic_021",
-			"fade_duration": 0
-		},
-		{
 			"character": "character-1627652279.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -46,6 +41,14 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"definition": "1627781051-787",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_010",
 			"options": [
@@ -62,6 +65,14 @@
 			"value": "1"
 		},
 		{
+			"definition": "1627779172-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "4"
+		},
+		{
 			"emit_signal": "attack",
 			"event_id": "dialogic_040"
 		},
@@ -75,6 +86,20 @@
 		{
 			"emit_signal": "defend",
 			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "End Battle",
+			"condition": "",
+			"definition": "1627784186-574",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1627785012.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

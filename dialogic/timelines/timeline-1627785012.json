@@ -1,11 +1,6 @@
 {
 	"events": [
 		{
-			"background": "res://mountain_trail.png",
-			"event_id": "dialogic_021",
-			"fade_duration": 0
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",

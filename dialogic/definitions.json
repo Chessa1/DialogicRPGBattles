@@ -7,14 +7,22 @@
 			"text": "Vicous blue fellow that you must destroy,\n[Slimehealth]/20 HP",
 			"title": "Slime",
 			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1627799707-648",
+			"name": "You",
+			"text": "A wanna-be adventurer who really isn't too self-aware of their capabilities. [Playerhealth]/10 HP",
+			"title": "The Greatest Hero of all Time",
+			"type": 1
 		}
 	],
 	"variables": [
 		{
-			"id": "1627784186-574",
-			"name": "Battle",
+			"id": "1627779172-648",
+			"name": "Slimehealth",
 			"type": 0,
-			"value": "0"
+			"value": "20"
 		},
 		{
 			"id": "1627781051-787",
@@ -23,10 +31,10 @@
 			"value": "10"
 		},
 		{
-			"id": "1627779172-648",
-			"name": "Slimehealth",
+			"id": "1627784186-574",
+			"name": "Battle",
 			"type": 0,
-			"value": "20"
+			"value": "0"
 		}
 	]
 }
